@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mad Libs Form</title>
+    <link rel="stylesheet" type="text/css" href="static/madlibs.css">
+</head>
+<body>
+    <form action = "/madlib">
+        Enter a person: <input type="text" name="person">
+        <br>
+        Select a color
+        <select name="color">
+            <option value="blue">Blue</option>
+            <option value="red">Red</option>
+            <option value="black">Black</option>
+        </select>
+        <br>
+        Enter a noun: <input type="text" name="noun">
+        <br>
+        Enter an adjective: <input type="text" name="adjective">
+        <br>
+        Select an exclamation: <input type="radio" name="exclamation" value = "Oh no!">Oh no!
+        <input type="radio" name="exclamation" value = "Yikes!">Yikes!
+        <input type="radio" name="exclamation" value = "Heavens to Betsy!">Heavens to Betsy!
+        <br>
+        Select one or more adjectives:
+        <input type="checkbox" name="today1" value="interesting">interesting
+        <input type="checkbox" name="today2" value="weird">weird
+        <input type="checkbox" name="today3" value="confusing">confusing
+        <input type="submit" name="Submit">
+    </form>
+</body>
+</html>
